@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Era Artificial - Lançamento do Livro</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#0f172a;
+    color:white;
+}
+
+header{
+    text-align:center;
+    padding:80px 20px;
+    background:linear-gradient(135deg,#1e293b,#2563eb);
+}
+
+header h1{
+    font-size:3rem;
+    margin-bottom:15px;
+}
+
+header p{
+    max-width:700px;
+    margin:auto;
+    font-size:1.1rem;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:25px;
+    padding:12px 25px;
+    background:white;
+    color:#2563eb;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:bold;
+}
+
+section{
+    padding:60px 10%;
+}
+
+.sobre{
+    display:flex;
+    flex-wrap:wrap;
+    gap:30px;
+    align-items:center;
+}
+
+.capa{
+    width:300px;
+    height:420px;
+    background:linear-gradient(135deg,#2563eb,#06b6d4);
+    border-radius:12px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:2rem;
+    font-weight:bold;
+}
+
+.texto{
+    flex:1;
+}
+
+.texto h2{
+    margin-bottom:15px;
+}
+
+.beneficios{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:#1e293b;
+    padding:20px;
+    border-radius:10px;
+}
+
+.card h3{
+    margin-bottom:10px;
+    color:#60a5fa;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    background:#020617;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>ERA ARTIFICIAL</h1>
+    <p>
+        Descubra um futuro onde inteligência artificial,
+        tecnologia e humanidade se encontram em uma jornada
+        emocionante e cheia de mistérios.
+    </p>
+    <a href="#" class="btn">Comprar Agora</a>
+</header>
+
+<section class="sobre">
+    <div class="capa">
+        ERA<br>ARTIFICIAL
+    </div>
+
+    <div class="texto">
+        <h2>Sobre o Livro</h2>
+        <p>
+            Em um mundo dominado por algoritmos avançados,
+            uma jovem pesquisadora descobre um segredo capaz
+            de mudar para sempre a relação entre humanos e máquinas.
+            "Era Artificial" é uma ficção científica envolvente
+            que explora ética, inovação e o futuro da sociedade.
+        </p>
+    </div>
+</section>
+
+<section>
+    <h2 style="text-align:center; margin-bottom:30px;">
+        Por que ler?
+    </h2>
+
+    <div class="beneficios">
+        <div class="card">
+            <h3>🚀 Tecnologia</h3>
+            <p>Explore um universo futurista repleto de inovação.</p>
+        </div>
+
+        <div class="card">
+            <h3>🤖 Inteligência Artificial</h3>
+            <p>Questões fascinantes sobre o papel da IA no futuro.</p>
+        </div>
+
+        <div class="card">
+            <h3>📖 História Envolvente</h3>
+            <p>Personagens marcantes e reviravoltas surpreendentes.</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 - Livro Era Artificial | Todos os direitos reservados</p>
+</footer>
+
+</body>
+</html>
